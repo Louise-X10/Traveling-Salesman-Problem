@@ -6,10 +6,15 @@ This project uses C++ code and Genetic Algorithm to solve the Traveling Salesman
 
 ## Results
 "shortest.tsv" implements randomized search. 
+
 "baseline_ga.tsv" implements random swap for mutation and ordered crossover for recombination, it uses 'chromosome' and 'deme'.
+
 "local.tsv" implements local hill climbing mutation, it uses 'climb_chromosome' and 'deme'.
+
 "tournament.tsv" implements tournament selection, it uses 'climb_chromosome' and 'tournament_deme'.
+
 "alternative.tsv" implements alternative edge crossover for recombination, it uses 'alt_chromosome' and 'tournament_deme'.
+
 "performance.tsv" shows runtimes for scaling from 1 to 4 threads, it uses 'climb_chromosome' and 'tournament_deme'.
 
 Most procedures use a population of size 1000 and 0.3 mutation rate, except the alternative chormosome procedure that uses 0.8 as mutation rate because higher mutation rate seems to produce better results. 

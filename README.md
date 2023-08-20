@@ -1,6 +1,6 @@
 # Traveling-Salesman-Problem
 
-This project uses C++ code and Genetic Algorithm to solve the Traveling Salesman Problem. The inheritance mechanism and polymorphism are utilized to implement different GA programs. This is a project from CSCI 221 taught by Eitan Frachtenberg. There was an option to include an algorithm with a modification of my choice, so I tried it because it seemd interesting. I chose to modify the recombination process and use alternative edge crossover (AEX) instead. There was also an optional task to evaluate the performance of algorithms after parralelizing the code, which I also implemented. 
+This project uses C++ code and Genetic Algorithm to solve the Traveling Salesman Problem. The inheritance mechanism and polymorphism are utilized to implement different GA programs. This is a project from CSCI 221 taught by Eitan Frachtenberg. There was an option to include an algorithm with a modification of my choice, so I tried it because it seemd interesting. I chose to modify the recombination process and use alternative edge crossover (AEX) instead. There was also an optional task to evaluate the performance of algorithms after parrallelizing the code, which I also implemented. 
 
 "challenge.tsv" contains simulated data of city coordiantes used to run the algorithms. "five.tsv" contains data of 5 cities used for a preliminary test of algorithms. 
 

@@ -6,6 +6,8 @@ This project uses C++ code and Genetic Algorithm to solve the Traveling Salesman
 
 ## Results
 
+The `comparison.gif` graph contains results from the first three implementations listed below, and the `comparison_EC.gif` graph compares results from the first four implementations. From the comparison graphs, it seems like local hill climbing performs better than the baseline whereas tournament selection performs worse. An alternative edge cross over recombination improves the tournament selection results to be similar to that of the local hill climbing. 
+
 - `baseline_ga.tsv` implements random swap for mutation and ordered crossover for recombination, it uses 'chromosome' and 'deme'.
 
 - `local.tsv` implements local hill climbing mutation, it uses 'climb_chromosome' and 'deme'.
